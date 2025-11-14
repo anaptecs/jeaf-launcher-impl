@@ -51,7 +51,7 @@
 		<fxlauncher.version>1.0.21</fxlauncher.version>
 		<openjfx.version>17</openjfx.version>
 		<jaxb.api.version>4.0.2</jaxb.api.version>
-		<jaxb.impl.version>4.0.5</jaxb.impl.version>
+		<jaxb.impl.version>4.0.6</jaxb.impl.version>
 	</properties>
 
 </project>
