@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.anaptecs.jeaf.launcher</groupId>
+		<artifactId>jeaf-launcher-project</artifactId>
+		<version>1.5.1-SNAPSHOT</version>
+	</parent>
+
+	<name>JEAF Launcher Impl</name>
+	<artifactId>jeaf-launcher-impl</artifactId>
+	<packaging>jar</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+			<version>${openjfx.version}</version>
+		</dependency>
+
+        <dependency>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
+            <version>${jaxb.api.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sun.xml.bind</groupId>
+            <artifactId>jaxb-impl</artifactId>
+            <version>${jaxb.impl.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        
+		<dependency>
+			<groupId>xyz.cofe</groupId>
+			<artifactId>winrun4j</artifactId>
+			<version>${winrun4j.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>no.tornado</groupId>
+			<artifactId>fxlauncher</artifactId>
+			<version>${fxlauncher.version}</version>
+		</dependency>
+	</dependencies>
+</project>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- Parent POM contains all general settings for building and releasing of all JEAF projects. -->
+	<parent>
+		<groupId>com.anaptecs.jeaf</groupId>
+		<artifactId>jeaf-module-project-parent</artifactId>
+		<version>1.9.1-SNAPSHOT</version>
+	</parent>
+
+	<groupId>com.anaptecs.jeaf.launcher</groupId>
+	<artifactId>jeaf-launcher-project</artifactId>
+	<version>1.5.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>JEAF Launcher Project</name>
+	<description>Project provides an so called launcher. A launcher can be used to run JSE applications in a simple way either as App or as Service. JEAF Launcher also provides an mechanism for automatic updates.</description>
+	<url>https://www.anaptecs.de/jeaf</url>
+	
+	<scm>
+		<connection>scm:git:https://bitbucket.org/anaptecs/jeaf-launcher-impl.git</connection>
+		<developerConnection>scm:git:https://bitbucket.org/anaptecs/jeaf-launcher-impl.git</developerConnection>
+		<url>https://bitbucket.org/anaptecs/jeaf-launcher-impl.git</url>
+	</scm>
+
+	<modules>
+		<module>jeaf-launcher-impl</module>
+	</modules>
+
+	<properties>
+		<!-- Versions for Maven Plugins -->
+		<maven.build.helper.version>3.0.0</maven.build.helper.version>
+		<maven.compiler.version>3.8.0</maven.compiler.version>
+		<maven.jar.version>3.1.1</maven.jar.version>
+		<maven.javadoc.version>3.0.1</maven.javadoc.version>
+		<maven.sonar.version>3.6.0.1398</maven.sonar.version>
+		<maven.source.version>3.0.1</maven.source.version>
+		<maven.versions.version>2.7</maven.versions.version>
+		<maven.enforcer.version>3.0.0-M2</maven.enforcer.version>
+
+		<!-- Versions of dependent libraries -->
+		<winrun4j.version>0.4.5</winrun4j.version>
+		<fxlauncher.version>1.0.21</fxlauncher.version>
+		<openjfx.version>17</openjfx.version>
+		<jaxb.api.version>4.0.2</jaxb.api.version>
+		<jaxb.impl.version>4.0.5</jaxb.impl.version>
+	</properties>
+
+</project>
