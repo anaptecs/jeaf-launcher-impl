@@ -49,7 +49,7 @@
 		<!-- Versions of dependent libraries -->
 		<winrun4j.version>0.4.5</winrun4j.version>
 		<fxlauncher.version>1.0.21</fxlauncher.version>
-		<openjfx.version>17</openjfx.version>
+		<openjfx.version>26-ea+21</openjfx.version>
 		<jaxb.api.version>4.0.2</jaxb.api.version>
 		<jaxb.impl.version>4.0.5</jaxb.impl.version>
 	</properties>
